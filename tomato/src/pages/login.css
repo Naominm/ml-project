@@ -1,0 +1,147 @@
+
+body {
+    background-color: #282c34;
+    color: white;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.behind-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #91cf8e;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    width: full;
+    margin: 40px 40px 10px 40px;
+   background-color: #fff;
+   
+}
+
+/* Left container styles */
+.left-container {
+    background: url(../assets/tom/tom9.jpg) center/cover;
+    border-radius: 20px;
+    height: 500px;
+    margin-top: 20px;
+    width: 30%; /* Adjusted width */
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container {
+    border-radius: 20px;
+    height: 500px; /* Adjusted height to match left-container */
+    width: 30%; /* Adjusted width */
+    /* margin-right: 80px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    background-color: white;
+    color: #000;
+}
+
+    
+.heading{
+   padding-top: 90px;
+   font-size: 20px;
+    font-weight: bold;
+}
+.login-sub-heading{
+    padding-top: 40px;
+    font-size: 20px;
+     font-weight: lighter;
+ }
+ .openingText{
+     font-size: 25px;
+     font-weight: bold;
+     margin-top: 20px;
+     color: #000;
+    }
+    .subtext{
+       color: #000;
+       font-size: 15px;
+       margin-top: 40px;
+    }
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #2c5f2d;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #1f4720;
+}
+
+/* Register link styles */
+a {
+    color: #2c5f2d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.loginContainer{
+    display: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+background-color: hsl(121, 37%, 27%);
+margin-left: 50px;
+margin-top: 20px;
+margin-bottom: 20px;
+width: 100%;
+height: auto;
+
+}
+.googleLogin{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width:100%;
+}
+.emailLogin{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin-top: 20px;
+    width:100%;
+}
+.textLogin{
+    padding-top: 20px;
+    color: #000;
+}
